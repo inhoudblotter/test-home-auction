@@ -1,0 +1,16 @@
+:root {
+  --color-text: #333;
+  --color-bg: #789dbc;
+  --color-error: #ffe3e3;
+  --color-component: #c9e9d2;
+
+  --font-text: 14px 'Verdana', sans-serif;
+  --font-btn: 600 14px 'Verdana', sans-serif;
+
+  --border-radius-s: 10px;
+  --border-radius-l: 25px;
+
+  --shadow-component: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --shadow-element: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}

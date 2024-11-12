@@ -1,0 +1,7 @@
+@import url('./normalize.css');
+@import url('./variables.css');
+
+body {
+  background-color: var(--color-bg);
+  min-width: 300px;
+}

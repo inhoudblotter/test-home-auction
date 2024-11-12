@@ -8,7 +8,7 @@ export function Error({className, message, ...props}: Omit<IToast, 'close'> & {m
     <Toast className={styles.toast} close={close} openStyle={styles.open} {...props} x="left">
       <div className={cn(styles.container)}>
         <span className={styles.messsage}>{message}</span>
-        <button className={styles.close} onClick={() => setClose(true)}>
+        <button className={styles.close} type="button" onClick={() => setClose(true)}>
           X
         </button>
       </div>
